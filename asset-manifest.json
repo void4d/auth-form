@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/auth-form/static/css/main.7b14fb45.css",
+    "main.js": "/auth-form/static/js/main.864182dd.js",
+    "static/js/787.a569f490.chunk.js": "/auth-form/static/js/787.a569f490.chunk.js",
+    "static/media/Jost-Medium.ttf": "/auth-form/static/media/Jost-Medium.763024e26b2bcbcc8404.ttf",
+    "static/media/Jost-Regular.ttf": "/auth-form/static/media/Jost-Regular.59de2b38b1b77348c048.ttf",
+    "index.html": "/auth-form/index.html",
+    "main.7b14fb45.css.map": "/auth-form/static/css/main.7b14fb45.css.map",
+    "main.864182dd.js.map": "/auth-form/static/js/main.864182dd.js.map",
+    "787.a569f490.chunk.js.map": "/auth-form/static/js/787.a569f490.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b14fb45.css",
+    "static/js/main.864182dd.js"
+  ]
+}
