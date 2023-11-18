@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom right, rgb(0, 110, 255), rgb(100, 253, 164));
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Jost Regular';
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts/fonts.css');
+@import url('./components/App/App.css');
+@import url('./components/Form/FormContainer.css');
+@import url('./components/Login/Login.css');
+@import url('./components/Register/Register.css');

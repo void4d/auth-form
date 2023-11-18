@@ -1,0 +1,109 @@
+.register-form {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.register-form__heading {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.register-form__inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 54px;
+}
+
+.register-form__input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.register-form__label {
+  align-self: self-start;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.register-form__input {
+  width: 250px;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 10px;
+}
+
+.register-form__input:focus {
+  outline-width: 2px;
+  outline-style: solid;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+.register-form__input-container:last-of-type {
+  margin-bottom: 0;
+}
+
+.register-form__input-error {
+  position: absolute;
+  top: 58px;
+  left: 10px;
+  font-size: 13px;
+  color: rgb(250, 0, 0);
+}
+
+.register-form__general-error {
+  position: absolute;
+  bottom: 115px;
+  width: 270px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(250, 0, 0);
+}
+
+.register-form__button {
+  font-family: 'Jost Medium';
+  margin-bottom: 10px;
+  width: 200px;
+  border: none;
+  padding: 10px 10px;
+  background: linear-gradient(to bottom right, rgb(100, 253, 164), rgb(0, 110, 255));
+  border-radius: 12px;
+  cursor: pointer;
+  color: #000000;
+  transition: transform 0.2s;
+}
+
+.register-form__button:active {
+  transform: scale(0.9);
+}
+
+.register-form__button_disabled {
+  background: grey;
+  cursor: default;
+}
+
+.register-form__button_disabled:active {
+  transform: none;
+}
+
+.register-form__button:focus {
+  outline-width: 2px;
+  outline-style: solid;
+}
+
+.register-form__not-registered {
+  font-size: 14px;
+}
+
+.highlited {
+  color: rgb(0, 150, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
